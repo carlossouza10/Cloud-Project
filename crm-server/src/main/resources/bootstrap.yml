@@ -1,0 +1,11 @@
+---
+spring:
+  application:
+    name: crm-server
+  cloud:
+    config:
+      uri: http://localhost:8001
+      failFast: true
+server:
+  port: 8002
+  contextPath: /crm
