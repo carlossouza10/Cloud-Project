@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.crafaelsouza</groupId>
-	<artifactId>app-1-adjective</artifactId>
+	<artifactId>app-4-adjective</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>app-1</name>
+	<name>app-4-adjective</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
