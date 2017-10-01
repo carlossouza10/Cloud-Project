@@ -1,4 +1,4 @@
-package com.crafaelsouza.app1sentence;
+package com.crafaelsouza.app4adjective;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class App1Sentence {
+public class App4Adjective {
 
 	public static void main(String[] args) {
-		SpringApplication.run(App1Sentence.class, args);
+		SpringApplication.run(App4Adjective.class, args);
 	}
 }

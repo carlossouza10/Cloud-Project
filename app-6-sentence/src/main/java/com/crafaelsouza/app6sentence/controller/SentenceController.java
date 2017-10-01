@@ -1,4 +1,4 @@
-package com.crafaelsouza.app1sentence.controller;
+package com.crafaelsouza.app6sentence.controller;
 
 import java.net.URI;
 import java.util.List;
