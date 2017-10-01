@@ -1,0 +1,44 @@
+# Depending on which profile is active, the application gives 
+# itself a different name when registering with Eureka
+---
+
+# Allow Eureka to recognize two apps of the same type on the same host as separate instances:
+eureka:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+---
+spring:
+  profiles: sentence
+  application:
+    name: app-sentence
+    
+---
+spring:
+  profiles: subject
+  application:
+    name: app-1-subject
+  
+---
+spring:
+  profiles: verb
+  application:
+    name: app-2-verb
+
+---
+spring:
+  profiles: article
+  application:
+    name: app-3-article
+
+---
+spring:
+  profiles: adjective
+  application:
+    name: app-4-adjective
+
+---
+spring:
+  profiles: noun
+  application:
+    name: app-5-noun
