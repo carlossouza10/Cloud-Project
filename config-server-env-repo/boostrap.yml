@@ -1,6 +1,4 @@
 ---
-parameters:
-  teste: Hello World!!!!
 eureka:
   client:
     serviceUrl:
