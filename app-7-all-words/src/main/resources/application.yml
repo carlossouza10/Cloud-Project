@@ -9,12 +9,6 @@
 # java -jar -Dspring.profiles.active=sentence lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar
 
 ---
-# Items that apply to ALL profiles:
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
-
 server:
   port: ${PORT:${SERVER_PORT:0}}
 

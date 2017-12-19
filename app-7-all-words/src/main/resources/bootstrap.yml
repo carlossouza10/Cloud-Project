@@ -7,6 +7,10 @@ eureka:
   instance:
     instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
 
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8001/config-server
 ---
 spring:
   profiles: sentence
@@ -18,7 +22,9 @@ spring:
   profiles: subject
   application:
     name: app-1-subject
-  
+  cloud:
+    config:
+      uri: http://localhost:8001/config-server
 ---
 spring:
   profiles: verb
